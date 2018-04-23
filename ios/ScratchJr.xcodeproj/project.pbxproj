@@ -67,7 +67,7 @@
 		69DDF292EA2B0A514FECD9DA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F781A4D3B58E8A9E640BCB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D905DF721C220BA6003DA34A /* free */ = {isa = PBXFileReference; lastKnownFileType = folder; name = free; path = ../editions/free; sourceTree = "<group>"; };
-		D92D0FA61C33381B00C573AD /* 瓦酷编程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "瓦酷编程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92D0FA61C33381B00C573AD /* ScratchJr Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScratchJr Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92D0FB21C33469A00C573AD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/AppDelegate.h; sourceTree = "<group>"; };
 		D92D0FB31C33469A00C573AD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/AppDelegate.m; sourceTree = "<group>"; };
 		D92D0FB41C33469A00C573AD /* CameraMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraMask.m; path = src/CameraMask.m; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				204D80C018A4140600ECBB8B /* ScratchJrTests.xctest */,
-				D92D0FA61C33381B00C573AD /* 瓦酷编程.app */,
+				D92D0FA61C33381B00C573AD /* ScratchJr Free.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 			);
 			name = "ScratchJr Free";
 			productName = ScratchJr;
-			productReference = D92D0FA61C33381B00C573AD /* 瓦酷编程.app */;
+			productReference = D92D0FA61C33381B00C573AD /* ScratchJr Free.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -601,7 +601,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../editions/free/Free-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = code.wakooedu.com;
-				PRODUCT_NAME = "瓦酷编程";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -625,7 +625,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../editions/free/Free-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = code.wakooedu.com;
-				PRODUCT_NAME = "瓦酷编程";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
