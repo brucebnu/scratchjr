@@ -4,7 +4,9 @@
 .DS_Store
 *.iml
 .gradle
+/courseware/PDF/*
 
+.idea/
 # User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
@@ -23,3 +25,7 @@
 # Gradle:
 .idea/gradle.xml
 .idea/libraries
+package-lock.json
+
+iOS/Podfile.lock
+iOS/Pods
